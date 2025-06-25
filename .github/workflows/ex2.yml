@@ -1,0 +1,9 @@
+name: Ejercicio2
+on: issues
+  types: [opened]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Info
+        run: echo "${{ github }}"
