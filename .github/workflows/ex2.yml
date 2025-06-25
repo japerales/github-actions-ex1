@@ -1,6 +1,7 @@
 name: Ejercicio2
-on: issues
-  types: [opened]
+on:
+  issues:
+    types: [opened]
 jobs:
   notify:
     runs-on: ubuntu-latest
